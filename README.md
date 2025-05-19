@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 1. Run the virtual keyboard:
 ```bash
-python Code/virtual_keyboard.py
+python code/virtual_keyboard.py
 ```
 
 2. Position your hands in front of the camera:
@@ -79,7 +79,7 @@ python Code/virtual_keyboard.py
 
 ```
 virtual-keyboard/
-├── Code/
+├── code/
 │   └── virtual_keyboard.py    # Main application file
 ├── README.md                  # Project documentation
 └── requirements.txt           # Python dependencies
