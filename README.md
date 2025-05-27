@@ -105,13 +105,12 @@ python code/virtual_keyboard.py
 
 ```
 virtual-keyboard/
-├── Code/
+├── code/
 │   └── virtual_keyboard.py    # Main application file
 ├── assets/
-│   └── images/               # Screenshots and images
-│       ├── keyboard-layout.png
-│       ├── hand-tracking.png
-│       └── special-keys.png
+│   └── images/               # Screenshots and demo videos
+│       ├── SS-1.png
+│       └── demo-video.mkv
 ├── README.md                  # Project documentation
 └── requirements.txt           # Python dependencies
 ```
