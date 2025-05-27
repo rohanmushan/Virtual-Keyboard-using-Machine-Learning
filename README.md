@@ -92,7 +92,7 @@ pip install -r requirements.txt
 1. Activate your virtual environment (if not already activated)
 2. Run the application:
 ```bash
-python Code/virtual_keyboard.py
+python code/virtual_keyboard.py
 ```
 
 3. Usage:
