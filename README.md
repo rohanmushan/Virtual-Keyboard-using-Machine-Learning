@@ -5,6 +5,18 @@
 
 A Python-based virtual keyboard that enables touchless typing through hand gesture recognition. Using computer vision technology, this project combines MediaPipe's hand tracking capabilities with OpenCV to create an intuitive typing experience without physical contact.
 
+## Quick Links
+- [Features](#features)
+- [Demo](#demo)
+- [Screenshots](#screenshots)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [Project Structure](#project-structure)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
 ## Features
 
 - **Hand Gesture Control**: Real-time tracking of hand movements and gestures
@@ -13,6 +25,34 @@ A Python-based virtual keyboard that enables touchless typing through hand gestu
 - **Special Key Functions**: Support for Shift, Caps Lock, Delete, and Space
 - **Visual Feedback**: Real-time display of hand tracking and key selection
 - **Smooth Interaction**: Implements position smoothing for stable tracking
+
+## Demo
+
+Watch our virtual keyboard in action:
+
+[![Demo Video](assets/images/demo-thumbnail.png)](https://youtu.be/your-video-id)
+
+### Key Features Demonstration
+- [Basic Typing Demo](https://youtu.be/your-basic-typing-demo)
+- [Special Keys Usage](https://youtu.be/your-special-keys-demo)
+- [Two-Hand Operation](https://youtu.be/your-two-hand-demo)
+
+## Screenshots
+
+<div align="center">
+  <img src="assets/images/keyboard-layout.png" alt="Virtual Keyboard Layout" width="600"/>
+  <p><em>Virtual Keyboard Interface</em></p>
+</div>
+
+<div align="center">
+  <img src="assets/images/hand-tracking.png" alt="Hand Tracking Demo" width="600"/>
+  <p><em>Hand Tracking and Gesture Recognition</em></p>
+</div>
+
+<div align="center">
+  <img src="assets/images/special-keys.png" alt="Special Keys Usage" width="600"/>
+  <p><em>Special Keys Functionality</em></p>
+</div>
 
 ## Prerequisites
 
@@ -67,6 +107,11 @@ python Code/virtual_keyboard.py
 virtual-keyboard/
 ├── Code/
 │   └── virtual_keyboard.py    # Main application file
+├── assets/
+│   └── images/               # Screenshots and images
+│       ├── keyboard-layout.png
+│       ├── hand-tracking.png
+│       └── special-keys.png
 ├── README.md                  # Project documentation
 └── requirements.txt           # Python dependencies
 ```
